@@ -1,0 +1,15 @@
+#include <iostream>
+
+    int doubleNumber(int numero)
+    {
+        return numero * 2;
+    }
+
+    int main()
+    {
+        int x;
+        std::cout << "ingrese un numero entero: ";
+        std::cin >> x;
+        std::cout <<"El doble de el numero: " << x << ", es:  "<< doubleNumber(x);
+    }
+                
